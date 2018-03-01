@@ -14,7 +14,7 @@ namespace MusicAppLints.Controllers
         public ActionResult Index(string sortOrder)
         {
             //
-            // instantiate a repository
+            // instantiate a repo
             //
             MusicAlbumRepository musicAlbumRepository = new MusicAlbumRepository();
 
