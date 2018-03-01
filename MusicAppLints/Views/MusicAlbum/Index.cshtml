@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MusicAppLints.Models.MusicAlbum>
+@{
+    ViewBag.Title = "List All Music Albums";
+}
+
+<h2>ListAllMusicAlbums</h2>
+<table class="table">
+    <tr>
+        <th>@*displays Header*@
+            @Html.ActionLink(Html.DisplayNameFor(model => model.Genre).ToHtmlString(), "ListAllSuperHeros", new { sortOrder = "genre"})
+        </th>
+
+        <th>
+            @*displays Header*@
+        @Html.ActionLink(Html.DisplayNameFor(model => model.AlbumName).ToHtmlString(), "ListAllSuperHeros", new { sortOrder = "albumName" })
+    </th>
+
+        <th>
+            @*displays Header*@
+        @Html.ActionLink(Html.DisplayNameFor(model => model.Song).ToHtmlString(), "ListAllSuperHeros", new { sortOrder = "song" })
+    </th>
+
+        <th>
+            @*displays Header*@
+            @Html.ActionLink(Html.DisplayNameFor(model => model.Artist).ToHtmlString(), "ListAllSuperHeros", new { sortOrder = "artist" })
+        </th>
+        <th>Manage Data</th>
+</tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@*Displays Data*@
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Song)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artist)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id}) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id }) 
+            </td>
+        </tr>
+    }
+
+</table>

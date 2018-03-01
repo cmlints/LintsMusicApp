@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MusicAlbums>
+
+  <MusicAlbum>
+    <Id>1</Id>   
+    <Genre>Country</Genre>
+    <AlbumName>Boom</AlbumName>
+    <Song>You broke up with me</Song>
+    <Artist>Walker Hayes and Allen Jackson</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>2</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Start Here</AlbumName>
+    <Song>Shut up and fish</Song>
+    <Artist>Maddie and Tae</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>3</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Riser</AlbumName>
+    <Song>Drunk on a plane</Song>
+    <Artist>Dierks Bently</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>4</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Pawn Shop</AlbumName>
+    <Song>It ain't my fault</Song>
+    <Artist>Brothers Osborne</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>5</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Hunter Hayes</AlbumName>
+    <Song>Everybodys got someone but me</Song>
+    <Artist>Hunter Hayes</Artist>  
+</MusicAlbum>
+
+  <MusicAlbum>
+    <Id>6</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Montevallo</AlbumName>
+    <Song>Break up in a small town</Song>
+    <Artist>Sam Hunt</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>7</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Getting Dressed in the Dark</AlbumName>
+    <Song>Pray for you</Song>
+    <Artist>Jaron and the Long Road to Love</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>8</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Gloriana</AlbumName>
+    <Song>Wild at heart</Song>
+    <Artist>Gloriana</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>9</Id>
+    <Genre>Country</Genre>
+    <AlbumName>The Life of a Song</AlbumName>
+    <Song>Cheater Cheater</Song>
+    <Artist>Joey and Rory</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>10</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Unleashed</AlbumName>
+    <Song>Courtesy of the red white and blue</Song>
+    <Artist>Toby Keith</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>11</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Come on Over</AlbumName>
+    <Song>Man! I feel like a women</Song>
+    <Artist>Shania Twain</Artist>
+</MusicAlbum>
+
+  <MusicAlbum>
+    <Id>12</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Room to Breathe</AlbumName>
+    <Song>I'm gonna take that mountain</Song>
+    <Artist>Reba McEntire</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>13</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Meat and Candy</AlbumName>
+    <Song>Break up with him</Song>
+    <Artist>Old Dominion</Artist>
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>14</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Crash My Party</AlbumName>
+    <Song>Crash my party</Song>
+    <Artist>Luke Bryan</Artist> 
+  </MusicAlbum>
+
+  <MusicAlbum>
+    <Id>15</Id>
+    <Genre>Country</Genre>
+    <AlbumName>Good Time</AlbumName>
+    <Song>Good time</Song>
+    <Artist>Allen Jackson</Artist>
+  </MusicAlbum>
+  
+</MusicAlbums>
