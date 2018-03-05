@@ -164,6 +164,8 @@
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.min_org.css" />
+    <Content Include="Content\bootstrap_org.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -195,12 +197,12 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\MusicAlbum\Details.cshtml" />
     <Content Include="Views\MusicAlbum\Create.cshtml" />
     <Content Include="Views\MusicAlbum\Index.cshtml" />
+    <Content Include="Views\MusicAlbum\Delete.cshtml" />
+    <Content Include="Views\MusicAlbum\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

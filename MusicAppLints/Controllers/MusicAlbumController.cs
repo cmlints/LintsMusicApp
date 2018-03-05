@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
 
 namespace MusicAppLints.Controllers
 {
@@ -229,6 +230,29 @@ namespace MusicAppLints.Controllers
                 // TODO Add view for error message
                 return View();
             }
+
+            public ActionResult Details(int id)
+            {
+                //
+                // instantiate a repository
+                //
+
+                MusicAlbumRepository musicAlbumRepository = new MusicAlbumRepository();
+                MusicAlbum musicAlbum = new MusicAlbum();
+
+                //
+                // get a brewery that has the matching id
+                //
+
+                using (musicAlbumRepository)
+                {
+                    musicAlbum = musicAlbumRepository.SelectOne(id);
+                }
+
+                return View(musicAlbum);
+
+            }
+
         }
     }
 }

@@ -2,17 +2,37 @@
     ViewBag.Title = "Home Page";
 }
 
+[HttpGet]
+public ActionResult Index(string sortOrder, int? page)
+{
+    //
+    // set parameters and paginate the breweries list
+    //
+int pagrSize = 5;
+int pageNumber = (page ?? 1);
+musicAlbums = musicAlbums.ToPagedList(pageNumber, pageSize);
+
+return View(musicAlbums);
+}
+
 <div class="jumbotron">
-    <h1>Country Music</h1>
+    <h1>Country Music Albums</h1>
 </div>
 
 <div class="row">
     <div class="col-md-6">
         <h2>Hello Counrty Fans!</h2>
+        <p>
+            This app has 15 different albums from artists from the early 2000's to current music artists.
+        </p>
     </div>
 
     <div class="col-md-6">
-        <h2>Country Music Info</h2>
-        @Html.ActionLink("MusicData", "Index", "MusicAlbum")
+        <h2>How to Get Started with the App</h2>
+        <p>
+            To view the list of albums, click on the button below.
+        </p>
+        <button type="button" onclick="location.href='@Url.Action("Index", "MusicAlbum")'" class="btn">Music Album List</button>
+
     </div>
 </div>
